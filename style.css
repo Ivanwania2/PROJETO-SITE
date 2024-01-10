@@ -1,0 +1,57 @@
+.bnt {
+    border-radius: 10px;
+    color: #ffff;
+    font-weight: 500;
+    font-size: 20px;
+    border: none !important;
+    transition: all linear 160ms;
+    background-color: #474a51;
+    cursor: pointer;
+}
+
+.acesso {
+    display: block;
+    flex-wrap: wrap;
+    margin-right: 10px;
+    margin-left: auto;
+    margin-top: 5px;
+}
+
+.cabecalho {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.titulo1 {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0;
+    flex-wrap: wrap;
+    text-align: center;
+    display: block;
+    font-size: 20px;
+}
+
+.rodape {
+    color: #474a51;
+    font-size: 12px;
+    text-align: center;
+    font-family: cambria;
+}
+
+.logo-wib {
+    margin-left: 10px;
+    margin-right: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: block;
+    width: 20%;
+    border-radius: 10%;
+
+}
+
+div {
+    background-image: url("./img/banner.jpg"); 
+    background-size: 95%; 
+    background-position: right;
+}
