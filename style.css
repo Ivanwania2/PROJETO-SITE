@@ -1,11 +1,11 @@
 .bnt {
     border-radius: 10px;
-    color: #ffff;
+    color: #120a8f;
     font-weight: 500;
     font-size: 20px;
     border: none !important;
     transition: all linear 160ms;
-    background-color: #474a51;
+    background-color: #d3d3d3 ;
     cursor: pointer;
 }
 
@@ -47,7 +47,7 @@
     display: block;
     width: 20%;
     border-radius: 10%;
-
+    border: 2px solid #120a8f ;
 }
 
 div {
