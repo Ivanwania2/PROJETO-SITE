@@ -23,21 +23,12 @@ h2 {
     text-align: center;
     font-size: 35px;
     color: #fff;
-    background-color:blueviolet;
+    background-color: blueviolet;
     margin-left: 5%;
     margin-right: 5%;
 }
 
 h3 {
-    text-align: center;
-    font-size: 25px;
-    color: #120a8f;
-    margin-left: auto;
-    margin-right: auto;
-    display: block;
-}
-
-h4 {
     text-align: center;
     font-size: 25px;
     color: #120a8f;
@@ -79,16 +70,6 @@ li {
     width: 20%;
     border-radius: 10%;
     border: 2px solid #120a8f;
-}
-
-.temporaria {
-    width: 40%;
-    display: flex;
-    border-radius: 10%;
-    border: 2px solid #120a8f;
-    margin-left: auto;
-    margin-right: auto;
-    background-color: #fff;
 }
 
 html,
@@ -142,4 +123,29 @@ body {
     margin-top: 10px;
     margin-bottom: 10px;
     border-radius: 10px;
+}
+
+.bt {
+    position: fixed;
+    width: auto;
+    height: auto;
+    bottom: 75px;
+    right: auto;
+    left: 2%;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.fcc-btn {
+    background-color: #4169e1;
+    color: white;
+    padding: 15px 25px;
+    text-decoration: none;
+    border-radius: 10px;
+}
+
+.fcc-btn:hover {
+    background-color: #223094;
+    transform: scale(1.08);
 }
