@@ -117,13 +117,14 @@ body {
 }
 
 .imagem {
-    margin-left: auto;
+    display: inline-block;
+    margin-left: 20%;
     margin-right: auto;
-    display: flex;
-    margin-top: 10px;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
     border-radius: 10px;
     width: 20%;
+    flex-direction: row;
+    flex-wrap: wrap;
 }
 
 /* Estilos para a janela flutuante */
